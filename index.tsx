@@ -30,12 +30,12 @@ const settings = definePluginSettings({
     imageSource: {
         type: OptionType.STRING,
         description: "Sets the image url of the jumpscare",
-        default: ""
+        default: "https://github.com/surgedevs/VencordJumpscare/blob/main/defaultFiles/jumpscare-uhd.png?raw=true"
     },
     audioSource: {
         type: OptionType.STRING,
         description: "Sets the audio url of the jumpscare",
-        default: ""
+        default: "https://github.com/surgedevs/VencordJumpscare/blob/main/defaultFiles/jumpscareAudio.mp3?raw=true"
     },
     chance: {
         type: OptionType.NUMBER,
